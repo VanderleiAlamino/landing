@@ -1,4 +1,11 @@
+@import '../../../assets/scss/variables';
+
 header{
     background-image: url(/assets/images/bg-header.webp);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: $white;
 }
